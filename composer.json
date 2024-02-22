@@ -1,0 +1,28 @@
+{
+    "name": "idmaintzain/openai",
+    "description": "A Laravel package for OpenAI integration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Idowu Adeyinka",
+            "email": "iadeyinka03@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Idmaintzain\\OpenAI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Idmaintzain\\OpenAI\\OpenAIServiceProvider"
+            ]
+        }
+    }
+}
